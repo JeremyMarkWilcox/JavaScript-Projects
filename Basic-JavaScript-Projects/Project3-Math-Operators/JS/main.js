@@ -64,7 +64,7 @@ function remainder() {
     var seventyEight = 78;
     var thirtyTwo = 32;
     //lets MODULATE hahaha!
-    document.getElementById("Remain").innerHTML = seventyEight / thirtyTwo; //Result 2.4375
+    document.getElementById("Remain").innerHTML = seventyEight % thirtyTwo; //Result 14
   }
 // Calling the function
 remainder();
