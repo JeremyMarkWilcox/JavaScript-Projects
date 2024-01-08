@@ -50,3 +50,10 @@ var Sent1 = "This is the beginning of the string, ", Sent2 = "and this the end o
 document.write(Sent1 + Sent2,"<br>");
 
 
+
+//HOVERING EVENT
+var hoverElement = document.getElementById('hoverElement');
+
+    hoverElement.addEventListener('mouseover', function() {
+      alert('You hovered over the element!');
+    });
