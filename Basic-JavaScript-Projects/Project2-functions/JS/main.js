@@ -40,3 +40,26 @@ function knowledge() {
     sentence += " so much from this course!";
     document.getElementById("learn").innerHTML = sentence;
 }
+
+//-----------------------------Key Down Trial-------------------------------------
+
+// This JavaScript function handles keydown events (It is going to be a Subprogram in a Subprogram)
+document.addEventListener('keydown', function(event) {
+    visualKeyPress(event.key);
+  });
+
+  // A JavaScript function that changes the text based on key pressed
+  function visualKeyPress(key) {
+    var displayElement = document.getElementById('displayText');
+
+    switch (key.toLowerCase()) {
+      case 'a':
+        displayElement.textContent = 'You pressed the letter A!';
+        break;
+      case 'b':
+        displayElement.textContent = 'You pressed the letter B!';
+        break;
+      default:
+        displayElement.textContent = 'Press A or B!';
+    }
+  }
