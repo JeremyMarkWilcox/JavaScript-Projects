@@ -15,7 +15,6 @@ function countdown() {
     }
     tick();
 }
-/* DELETE THIS FOR THE SLIDESHOW
 
 
 // Slideshow --------------------------------------------------------------------------------------------------
@@ -49,7 +48,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-DELETE THIS FOR THE SLIDESHOW */ 
 
 
 
