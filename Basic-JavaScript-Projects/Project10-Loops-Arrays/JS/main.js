@@ -86,7 +86,7 @@ const myObject = {
     state: "New York"
 };
 
-// function to displat a string of the object property values
+// function to display a string of the object property values
 
 function constant_function() {
     var showMeTheString = "Name: " + myObject.name + "<br>" +
@@ -103,3 +103,76 @@ function newLet() {
     let Jer = 5;
     document.getElementById("let").innerHTML = Jer;
 }
+
+
+// Return Statement
+
+// function name, plus parameters a and b, defining the function
+function addNumbers(a, b) {
+    // variable that adds the two values, it is a placeholder code
+    var sum = a + b;
+    // return sum sends back the result to the calling code
+    return sum;
+} 
+  
+// Call the function and store the result in a variable named result
+var result = addNumbers(3896, 555);
+
+// display in the HTML
+  document.getElementById("add").innerHTML = result;
+
+
+// Output the result to the console
+  console.log(result); // Output: 4451
+  
+
+// Creating an object using let
+
+let Jer = {
+    DoB:       "05/18/1988",
+    species:   "human being",
+    ethnicity: "Anglo Saxon",   
+    ancestor:  "Alexander Hamilton",
+    height:    "6 Feet",
+    weight:    "200lbs",
+    description: function() {
+    return "Jer is a " + this.species + " of " + this.ethnicity + " descent, " + " from the family line of "
+    + this.ancestor + "." + "<br><br>"
+    + "Date of Birth: " + this.DoB + "<br><br>" 
+    + "Height: " + this.height +  "<br><br>" 
+    + "Weight: " + this.weight;
+    }
+};
+document.getElementById("Jer").innerHTML = Jer.description();
+
+
+// Break loop
+
+// declaring variable
+var i = 0;
+// the loop continues as long as i is less than 10
+while (i < 10) {
+  // if i strictly equals 5 then the break statement will break the loo[]   
+  if (i === 5) {
+    break; // Break the loop when i is 5
+  }
+  document.getElementById("Break").innerHTML = i; // This will display 4 because that is the last number before the loop breaks
+  console.log(i); // shows what happens better
+  i++;
+}
+
+
+// Continue statement
+
+// i = 1 and as long as i is less or equal to 5 then i will increment by 1
+for (var i = 1; i <= 5; i++) {
+    // Skip the loop iteration when i is 3
+    if (i === 3) {
+      // This documents the event that the third 3rd iteration is skipped
+      console.log("Skipping iteration 3");
+      // This tells the program to skip the 3rd iteration but also to continue the rest of the loop
+      continue;
+    }
+    // Shows the iteration process
+    console.log("Iteration: " + i);
+  }
