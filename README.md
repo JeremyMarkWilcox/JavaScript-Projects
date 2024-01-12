@@ -18,3 +18,7 @@ Exercises regarding functions.
 Teaches Math Operators in JavaScript code (Such as all numbers in JS are floats)
 
 ### Project 4:
+Teaches how to create Dictionaries in JS.
+
+### Project 5:
+Teaches Comparison Type Coerion.
