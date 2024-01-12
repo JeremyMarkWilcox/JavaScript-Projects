@@ -30,7 +30,7 @@ function Input_Decimal(dot) {
     // This ensures that accidental clicking of the decimal point doesn't
     // cause bugs in the operation.
     if (Calculator.Wait_Second_Operand === true) return;
-    if (Calculator.Display_Value.includes(dot)) {
+    if (!Calculator.Display_Value.includes(dot)) {
         // We are saying that if the Display_Value does not contain a decimal point
         // We want to add a decimal point.
         Calculator.Display_Value += dot;
@@ -106,7 +106,7 @@ keys.addEventListener('click', (event) => {
         return
     }
     if (target.classList.contains('decimal')) {
-        Handle_Operator(target.value);
+        Input_Decimal(target.value);
         Update_Display();
         return;
     }
