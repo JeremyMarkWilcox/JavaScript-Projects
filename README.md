@@ -25,3 +25,8 @@ Teaches Comparison Type Coerion.
 
 ### Project 6:
 Teaches how to use Ternary Operators-Constructors
+
+### Project 7:
+
+
+
