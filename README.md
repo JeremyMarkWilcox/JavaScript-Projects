@@ -3,6 +3,7 @@
 This is the repository where I will be keeping all of my JavaScript Projects performed for my Bootcamp
 * [Basic-JavaScript-Projects](Basic-JavaScript-Projects)
 * [TicTacToe](TicTacToe)
+* [Calculator](Calculator)
  
 
 
@@ -50,7 +51,8 @@ Teaches about Loops and Arrays
 In this project I created a Tic Tac Toe game with JavaScript. It is a very simple project with silly sounds, they had us get our own. 
 It also has a computer_player, the computer AI could definitely be much more challenging.
 
-
+## Calculator Project
+In this folder I created a very simple calculater using JavaScript.
 
 
 
