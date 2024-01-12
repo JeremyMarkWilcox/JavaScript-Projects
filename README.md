@@ -32,4 +32,8 @@ This project deals with Scopes, global, function, block scope.
 ### Project 8:
 Teaches different String-Methods that you can use.
 
+### Project 9:
+This project creates a count down program and a SlideShow.
 
+### Projects 10:
+Teaches about Loops and Arrays
