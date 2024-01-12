@@ -2,14 +2,15 @@
 
 This is the repository where I will be keeping all of my JavaScript Projects performed for my Bootcamp
 * [Basic-JavaScript-Projects](Basic-JavaScript-Projects)
-*
+*[TicTacToe](TicTacToe)
 *
 *
 
 
 ## Basic-JavaScript-Projects
 ### Projects 1: 
-Contains the very basics of JavaScript including things like variables, strings, concatenations, arguments, expressions, writing messages in the pop-up/ alert window and onn the page itself.
+Contains the very basics of JavaScript including things like variables, strings, concatenations,
+arguments, expressions, writing messages in the pop-up/ alert window and onn the page itself.
 
 ### Projects 2: 
 Exercises regarding functions.
@@ -44,3 +45,12 @@ Teaches about Loops and Arrays
 * Arrow Function Challenge
 * Dev Tools Assignement
 * Switch Statements and Canvas Exercises
+
+## Tic Tac Toe Project
+In this project I created a Tic Tac Toe game with JavaScript. It is a very simple project with silly sounds, they had us get our own. 
+It also has a computer_player, the computer AI could definitely be much more challenging.
+
+
+
+
+
