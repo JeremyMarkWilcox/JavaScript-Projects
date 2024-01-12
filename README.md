@@ -30,6 +30,6 @@ Teaches how to use Ternary Operators-Constructors
 This project deals with Scopes, global, function, block scope.
 
 ### Project 8:
-
+Teaches different String-Methods that you can use.
 
 
