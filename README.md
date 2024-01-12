@@ -37,3 +37,10 @@ This project creates a count down program and a SlideShow.
 
 ### Projects 10:
 Teaches about Loops and Arrays
+
+### Additional Learning project folders:
+* ASYNC Project
+* Defer Project
+* Arrow Function Challenge
+* Dev Tools Assignement
+* Switch Statements and Canvas Exercises
