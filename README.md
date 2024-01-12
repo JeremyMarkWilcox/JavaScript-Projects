@@ -27,6 +27,9 @@ Teaches Comparison Type Coerion.
 Teaches how to use Ternary Operators-Constructors
 
 ### Project 7:
+This project deals with Scopes, global, function, block scope.
+
+### Project 8:
 
 
 
