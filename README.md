@@ -4,6 +4,7 @@ This is the repository where I will be keeping all of my JavaScript Projects per
 * [Basic-JavaScript-Projects](Basic-JavaScript-Projects)
 * [TicTacToe](TicTacToe)
 * [Calculator](Calculator)
+* [Pizza Project](Pizza Project)
  
 
 
@@ -53,6 +54,10 @@ It also has a computer_player, the computer AI could definitely be much more cha
 
 ## Calculator Project
 In this folder I created a very simple calculater using JavaScript.
+
+## Pizza Project
+A basic webpage displaying pizza sizes and toppings. The price adjusts depending on what you select. 
+I found it interesting how the loops and indexes come together to make it work.
 
 
 
