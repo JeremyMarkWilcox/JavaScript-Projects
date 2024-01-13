@@ -4,7 +4,7 @@ This is the repository where I will be keeping all of my JavaScript Projects per
 * [Basic-JavaScript-Projects](Basic-JavaScript-Projects)
 * [TicTacToe](TicTacToe)
 * [Calculator](Calculator)
-* [Pizza Project](Pizza Project)
+* [Pizza_Project](Pizza_Project)
  
 
 
