@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p id="myDog"></p>
+
+    <p id="person"></p>
+
+    <script>
+        /* JavaScript Dictionary Object */
+        var dog = {name: "Dax", breed: "Great Pyrenees", color: "White"};
+        /* Convert JavaScript objects to string format */
+        var JSONstring = JSON.stringify(dog);
+        document.getElementById("myDog").innerHTML = JSONstring;
+
+
+
+            /* This is a JSON string variable */
+        var dog = '{"name": "Dax", "breed": "Great Pyrenees", "color": "White"}';
+        /* Convert JSON strings to Javascript objects */
+        var JSONstring = JSON.parse(dog);
+        document.getElementById("myDog").innerHTML = JSONstring.name + " the " +
+            JSONstring.breed;
+
+        /* set the data as a key/value pair to be saved locally in your browser */
+        localStorage.setItem("Name", "Dax");
+        /* Then use the key "Name" to return its value "Dax" */
+        document.getElementById("myDog").innerHTML = localStorage.getItem("Name");
+
+
+
+
+
+
+
+
+
+
+        // Person section
+
+        var person = {
+        name: "John Doe",
+        age: 30,
+        city: "New York"
+    };
+
+    // Use JSON.stringify() to convert the object to a JSON string
+    var jsonString2 = JSON.stringify(person);
+    document.getElementById("person").innerHTML = jsonString2;
+
+
+
+
+   /* This is a JSON string variable */
+   var person = '{"name": "John Doe", "age": "30", "city": "New York"}';
+        /* Convert JSON strings to Javascript objects */
+        var JSONstring = JSON.parse(person);
+        document.getElementById("person").innerHTML = JSONstring.name + " age " +
+            JSONstring.age; 
+
+     
+        localStorage.setItem("Name", "John Doe");
+        
+        document.getElementById("person").innerHTML = localStorage.getItem("Name");
+            
+
+
+
+    </script>
+</body>
+</html>
