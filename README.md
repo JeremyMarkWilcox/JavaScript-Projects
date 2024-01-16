@@ -6,6 +6,7 @@ This is the repository where I will be keeping all of my JavaScript Projects per
 * [Calculator](Calculator)
 * [Pizza_Project](Pizza_Project)
 * [React_Projects](React_Projects)
+* [AJAX](AJAX)
  
 
 
@@ -65,6 +66,6 @@ I found it interesting how the loops and indexes come together to make it work.
 In these excerises I learned how to create component classes, 
 .createfactory which makes objects able to create other objects, setInterval function and more!
 
+## AJAX
 
-
-
+Practiced the basics of Ajax and learned about the Asynchronous Communication potential it has.
