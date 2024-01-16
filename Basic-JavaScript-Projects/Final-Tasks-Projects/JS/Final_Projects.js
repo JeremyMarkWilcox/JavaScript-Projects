@@ -35,4 +35,17 @@ let slideIndex = 0;
           }
         });
       });
-      
+
+      function Double_Click() {
+        // Get the original element by ID
+        var originalElement = document.getElementById("doubling_down");
+
+        // Clone the original element
+        var cloneElement = originalElement.cloneNode(true);
+
+        // Add a class to distinguish the duplicated elements
+        cloneElement.classList.add("duplicated");
+
+        // Append the clone to the parent container (body in this example)
+        document.body.appendChild(cloneElement);
+    }
