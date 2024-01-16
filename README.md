@@ -1,15 +1,14 @@
 # JavaScript Projects
 
 This is the repository where I will be keeping all of my JavaScript Projects performed for my Bootcamp
+* [AJAX](AJAX)
 * [Basic-JavaScript-Projects](Basic-JavaScript-Projects)
-* [TicTacToe](TicTacToe)
 * [Calculator](Calculator)
 * [Pizza_Project](Pizza_Project)
 * [React_Projects](React_Projects)
-* [AJAX](AJAX)
- 
-
-
+* [TicTacToe](TicTacToe)
+* [todo-app](todo-app)
+  
 
 ## Basic-JavaScript-Projects
 ### Projects 1: 
