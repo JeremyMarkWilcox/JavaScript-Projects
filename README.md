@@ -5,6 +5,7 @@ This is the repository where I will be keeping all of my JavaScript Projects per
 * [TicTacToe](TicTacToe)
 * [Calculator](Calculator)
 * [Pizza_Project](Pizza_Project)
+* [React_Projects](React_Projects)
  
 
 
@@ -58,6 +59,12 @@ In this folder I created a very simple calculater using JavaScript.
 ## Pizza Project
 A basic webpage displaying pizza sizes and toppings. The price adjusts depending on what you select. 
 I found it interesting how the loops and indexes come together to make it work.
+
+## React Exercises
+
+In these excerises I learned how to create component classes, 
+.createfactory which makes objects able to create other objects, setInterval function and more!
+
 
 
 
